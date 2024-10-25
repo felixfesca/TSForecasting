@@ -252,5 +252,5 @@ do_fixed_horizon_global_forecasting <- function(dataset_name, lag, input_file_na
 # Example of usage
 # uncomment to try
 
-# do_fixed_horizon_local_forecasting("sample", "ses, "sample.tsf", "series_name", "start_timestamp", 8)
+# do_fixed_horizon_local_forecasting("sample", "ses", "sample.tsf", "series_name", "start_timestamp", 8)
 # do_fixed_horizon_global_forecasting("sample", 65, "sample.tsf", "pooled_regression", "series_name", "start_timestamp", 8)
